@@ -10,7 +10,8 @@ Keeping progress Of Udemy Java MasterClass by Tim Buchalka
 
 | Coding Exercise                       | Difficulty       | Category            | Solution Link                                                        |
 | ------------------------------------- | ---------------- | ------------------- | -------------------------------------------------------------------- |
-| 37                        | 🟢               | composition              | [Program.java](src/exercises/Composition)                   |
-| 38                        | 🟢               | encapsulation              | [Program.java](src/exercises/Encapsulation)                   |
-| 39                       | 🟢               | Polymorphism              | [Program.java](src/exercises/Polymorphism)                   |
+| 37                        | 🟢               | Composition              | [CODE](src/exercises/Composition)                   |
+| 38                        | 🟢               | Encapsulation              | [CODE](src/exercises/Encapsulation)                   |
+| 39                       | 🟢               | Polymorphism              | [CODE](src/exercises/Polymorphism)                   |
+| 40                       | 🟢               | Bills Burger's              | [CODE](src/exercises/BillsBurgers)                   |
 
