@@ -10,5 +10,6 @@ Keeping progress Of Udemy Java MasterClass by Tim Buchalka
 
 | Coding Exercise                       | Difficulty       | Category            | Solution Link                                                        |
 | ------------------------------------- | ---------------- | ------------------- | -------------------------------------------------------------------- |
-| Two Number Sum                        | 🟢               | Arrays              | [Program.java](src/Easy/TwoNumberSum/Solution.java)                   |
+| 37                        | 🟢               | composition              | [Program.java](src/exercises/Composition)                   |
+| 38                        | 🟢               | encapsulation              | [Program.java](src/exercises/Encapsulation)                   |
 
