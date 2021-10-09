@@ -12,4 +12,5 @@ Keeping progress Of Udemy Java MasterClass by Tim Buchalka
 | ------------------------------------- | ---------------- | ------------------- | -------------------------------------------------------------------- |
 | 37                        | 🟢               | composition              | [Program.java](src/exercises/Composition)                   |
 | 38                        | 🟢               | encapsulation              | [Program.java](src/exercises/Encapsulation)                   |
+| 39                       | 🟢               | Polymorphism              | [Program.java](src/exercises/Polymorphism)                   |
 
