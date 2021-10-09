@@ -15,4 +15,5 @@ Keeping progress Of Udemy Java MasterClass by Tim Buchalka
 | 39                       | 🟢               | Polymorphism              | [CODE](src/exercises/Polymorphism)                   |
 | 40                       | 🟢               | Bills Burger's              | [CODE](src/exercises/BillsBurgers)                   |
 | 41                       | 🟢               | Arrays             | [CODE](src/exercises/SortedArray)                   |
+| 42                       | 🟢               | Arrays             | [CODE](src/exercises/MinimumElement)                   |
 
