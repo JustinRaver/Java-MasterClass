@@ -17,4 +17,5 @@ Keeping progress Of Udemy Java MasterClass by Tim Buchalka
 | 41                       | 🟢               | Arrays             | [CODE](src/exercises/SortedArray)                   |
 | 42                       | 🟢               | Arrays             | [CODE](src/exercises/MinimumElement)                   |
 | 43                       | 🟢               | Arrays             | [CODE](src/exercises/ReverseArray)                   |
+| 44                       | 🟢               | ArrayLists             | [CODE](src/exercises/MobilePhone)                   |
 
