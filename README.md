@@ -20,4 +20,5 @@ Keeping progress Of Udemy Java MasterClass by Tim Buchalka
 | 44                       | 🟢               | ArrayLists             | [CODE](src/exercises/MobilePhone)                   |
 | 45                       | 🟢               | ArrayLists            | [CODE](src/exercises/Banking)                   |
 | 46                       | 🟢               | ArrayLists             | [CODE](src/exercises/Playlist)                   |
+| 47                       | 🟢               | ArrayLists/LinkedLists             | [CODE](src/exercises/Interface)                   |
 
