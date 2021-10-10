@@ -1,4 +1,4 @@
-# Java-MasterClass
+# Java-Masterclass
 Keeping progress Of Udemy Java Masterclass by Tim Buchalka
 
 [Java Programming Masterclass](https://www.udemy.com/course/java-the-complete-java-developer-course/)
