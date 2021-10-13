@@ -25,4 +25,5 @@ Keeping progress Of Udemy Java Masterclass by Tim Buchalka
 | 47                        | 🟢               | ArrayLists/LinkedLists          | [CODE](src/exercises/Interface)                                      |
 | 48                        | 🟢               | ArrayLists/InnerClasses         | [CODE](src/exercises/PlaylistInnerClasses)                           |
 | 49                        | 🔵               | SearchTrees/LinkedLists         | [CODE](src/exercises/PlaylistInnerClasses)                           |
+| 50                        | 🟢               | Maps                            | [CODE](src/exercises/AdventureGame)                                  |
 

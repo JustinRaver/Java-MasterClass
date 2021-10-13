@@ -17,24 +17,24 @@ public class MyLinkedList implements NodeList {
     public boolean addItem(ListItem item) {
         if (root == null) {
             this.root = item;
-        } else {
-            ListItem curr = root;
-            while (curr.rightLink != null && item.compareTo(curr) < 0) {
-                curr = curr.rightLink;
-            }
-            if (item.compareTo(curr) == 0) return false;
-            // item <-> newItem [item2] <-> item 3
-            if (item.compareTo(curr) < 0) {
-                //set curr.previous to point to new node
-                curr.leftLink.setNext(item);
-                item.setPrevious(curr.leftLink);
-                curr.setPrevious(item);
-                item.setNext(curr);
-            } else {
-                curr.setNext(item);
-                item.setPrevious(curr);
-            }
         }
+        ListItem curr = this.root;
+        while (curr.rightLink != null && item.compareTo(curr) < 0) {
+            curr = curr.rightLink;
+        }
+        if (item.compareTo(curr) == 0) return false;
+        // item <-> newItem [item2] <-> item 3
+        if (item.compareTo(curr) < 0) {
+            //set curr.previous to point to new node
+            curr.leftLink.setNext(item);
+            item.setPrevious(curr.leftLink);
+            curr.setPrevious(item);
+            item.setNext(curr);
+        } else {
+            curr.setNext(item);
+            item.setPrevious(curr);
+        }
+
         return true;
     }
 
