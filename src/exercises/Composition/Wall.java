@@ -1,12 +1,13 @@
 package exercises.Composition;
 
 public class Wall {
-    private String direction;
+    private final String direction;
 
-    public Wall(String direction){
+    public Wall(String direction) {
         this.direction = direction;
     }
-    public String getDirection(){
+
+    public String getDirection() {
         return this.direction;
     }
 }

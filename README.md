@@ -26,4 +26,5 @@ Keeping progress Of Udemy Java Masterclass by Tim Buchalka
 | 48                        | 🟢               | ArrayLists/InnerClasses         | [CODE](src/exercises/PlaylistInnerClasses)                           |
 | 49                        | 🔵               | SearchTrees/LinkedLists         | [CODE](src/exercises/PlaylistInnerClasses)                           |
 | 50                        | 🟢               | Maps                            | [CODE](src/exercises/AdventureGame)                                  |
+| 51                        | 🟢               | Immutable Classes               | [CODE](src/exercises/ImmutableClass)                                  |
 

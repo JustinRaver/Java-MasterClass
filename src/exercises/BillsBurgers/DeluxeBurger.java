@@ -1,6 +1,6 @@
 package exercises.BillsBurgers;
 
-public class DeluxeBurger extends Hamburger{
+public class DeluxeBurger extends Hamburger {
 
     public DeluxeBurger() {
         super("Deluxe Burger", "Wagu", 19.10, "Brioche");

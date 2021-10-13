@@ -3,7 +3,7 @@ package exercises.Interface;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Player implements ISaveable{
+public class Player implements ISaveable {
     private String name, weapon;
     private int hitPoints, strength;
 
@@ -59,7 +59,7 @@ public class Player implements ISaveable{
 
     @Override
     public void read(List<String> list) {
-        if(list != null && list.size() > 0){
+        if (list != null && list.size() > 0) {
             this.name = list.get(0);
             this.hitPoints = Integer.valueOf(list.get(1));
             this.strength = Integer.valueOf(list.get(2));
@@ -67,7 +67,7 @@ public class Player implements ISaveable{
         }
     }
 
-    public String toString(){
-        return ("Player{name='"+name+"', hitPoints="+hitPoints+", strength="+strength+", weapon='"+weapon+"'}");
+    public String toString() {
+        return ("Player{name='" + name + "', hitPoints=" + hitPoints + ", strength=" + strength + ", weapon='" + weapon + "'}");
     }
 }

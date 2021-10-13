@@ -1,8 +1,8 @@
 package exercises.Playlist;
 
 public class Song {
-    private String title;
-    private double duration;
+    private final String title;
+    private final double duration;
 
     public Song(String title, double duration) {
         this.title = title;
@@ -15,6 +15,6 @@ public class Song {
 
     @Override
     public String toString() {
-        return this.title+": "+duration;
+        return this.title + ": " + duration;
     }
 }

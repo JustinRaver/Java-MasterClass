@@ -3,8 +3,8 @@ package exercises.Banking;
 import java.util.ArrayList;
 
 public class Branch {
-    private String name;
-    private ArrayList<Customer> customers;
+    private final String name;
+    private final ArrayList<Customer> customers;
 
     public Branch(String name) {
         this.name = name;
@@ -19,8 +19,8 @@ public class Branch {
         return customers;
     }
 
-    public boolean newCustomer(String name,double amount){
-        if(findCustomer(name) == null){
+    public boolean newCustomer(String name, double amount) {
+        if (findCustomer(name) == null) {
             Customer c = new Customer(name, amount);
             customers.add(c);
             return true;
@@ -28,18 +28,18 @@ public class Branch {
         return false;
     }
 
-    public boolean addCustomerTransaction(String name, double amount){
+    public boolean addCustomerTransaction(String name, double amount) {
         Customer c = findCustomer(name);
-        if(c != null){
+        if (c != null) {
             c.addTransaction(amount);
             return true;
         }
         return false;
     }
 
-    private Customer findCustomer(String name){
-        for(Customer c:customers){
-            if(c.getName().equals(name)){
+    private Customer findCustomer(String name) {
+        for (Customer c : customers) {
+            if (c.getName().equals(name)) {
                 return c;
             }
         }

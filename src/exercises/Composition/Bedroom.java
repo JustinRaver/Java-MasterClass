@@ -1,13 +1,16 @@
 package exercises.Composition;
 
 public class Bedroom {
-    private String name;
-    private Wall wall1,wall2,wall3,wall4;
-    private Ceiling ceiling;
-    private Bed bed;
-    private Lamp lamp;
+    private final String name;
+    private final Wall wall1;
+    private final Wall wall2;
+    private final Wall wall3;
+    private final Wall wall4;
+    private final Ceiling ceiling;
+    private final Bed bed;
+    private final Lamp lamp;
 
-    public Bedroom(String name, Wall wall1, Wall wall2, Wall wall3, Wall wall4, Ceiling ceiling, Bed bed, Lamp lamp){
+    public Bedroom(String name, Wall wall1, Wall wall2, Wall wall3, Wall wall4, Ceiling ceiling, Bed bed, Lamp lamp) {
         this.name = name;
         this.wall1 = wall1;
         this.wall2 = wall2;
@@ -18,10 +21,11 @@ public class Bedroom {
         this.lamp = lamp;
     }
 
-    public Lamp getLamp(){
+    public Lamp getLamp() {
         return this.lamp;
     }
-    public void makeBed(){
+
+    public void makeBed() {
         this.bed.make();
     }
 }

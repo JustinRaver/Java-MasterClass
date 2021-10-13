@@ -1,9 +1,10 @@
 package exercises.Polymorphism;
 
 public class Car {
-    private boolean engine;
-    private int cylinders, wheels;
-    private String name;
+    private final boolean engine;
+    private final int cylinders;
+    private final int wheels;
+    private final String name;
 
     public Car(int cylinders, String name) {
         this.cylinders = cylinders;
@@ -12,15 +13,15 @@ public class Car {
         this.wheels = 4;
     }
 
-    public String startEngine(){
+    public String startEngine() {
         return "The Car engine is starting";
     }
 
-    public String accelerate(){
+    public String accelerate() {
         return "The Car is accelerating";
     }
 
-    public String brake(){
+    public String brake() {
         return "The Car is braking";
     }
 

@@ -3,9 +3,9 @@ package exercises.Interface;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Monster implements ISaveable{
+public class Monster implements ISaveable {
     private String name;
-    private int hitPoints,strength;
+    private int hitPoints, strength;
 
     public Monster(String name, int hitPoints, int strength) {
         this.name = name;
@@ -36,14 +36,14 @@ public class Monster implements ISaveable{
 
     @Override
     public void read(List<String> list) {
-        if(list != null && list.size() > 0){
+        if (list != null && list.size() > 0) {
             this.name = list.get(0);
             this.hitPoints = Integer.valueOf(list.get(1));
             this.strength = Integer.valueOf(list.get(2));
         }
     }
 
-    public String toString(){
-        return ("Monster{name='"+name+"', hitPoints="+hitPoints+", strength="+strength+"}");
+    public String toString() {
+        return ("Monster{name='" + name + "', hitPoints=" + hitPoints + ", strength=" + strength + "}");
     }
 }
